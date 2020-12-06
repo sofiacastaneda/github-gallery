@@ -18,8 +18,6 @@ date_format:    "%A, %B %-d, %Y"
 </head>
 <body>
         
-     <div class="row">
-  <div class="column">
 <ul class="ins-imgs">
 
     {% assign imgs = (site.static_files | sort: page.sort_by) %}
@@ -43,8 +41,6 @@ date_format:    "%A, %B %-d, %Y"
     {% endfor %}
 
 </ul>
-         </div>
-                  </div>
 
 <footer>
     <a href="https://github.com/mikelothar/github-gallery" target="_blank">Based on GitHub Gallery by Mike Lothar.</a>
