@@ -24,4 +24,4 @@ Sigue estos cuatro pasos:
 
 Para añadir tus creaciones a la galería, carga tus imágenes en [esta carpeta](https://github.com/sofiacastaneda/pipeta/tree/gh-pages/images). Espera unos minutos y podrás ver todas tus composiciones [aquí](https://sofiacastaneda.github.io/pipeta/galeria.html).
 
-También puedes publicar tus imágenes en Twitter enviando un mail a trigger@applet.ifttt.com. Nombra tu obra en el asunto del correo, y adjunta tu imagen. Espera unos segundos y verás tus imágenes en [@pipetapipas](https://twitter.com/pipetapipas). Estas imágenes quedan archivadas también en [esta carpeta]().
+También puedes publicar tus imágenes en Twitter enviando un mail a trigger@applet.ifttt.com. Nombra tu obra en el asunto del correo, y adjunta tu imagen. Espera unos segundos y verás tus imágenes en [@pipetapipas](https://twitter.com/pipetapipas). Estas imágenes quedan archivadas también en [esta carpeta](https://drive.google.com/drive/folders/1fVWIslnsXeJRCjsI-1HoeAb4W5uzg82G?usp=sharing).
