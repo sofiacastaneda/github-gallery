@@ -1,4 +1,4 @@
-# GitHub Gallery
+# Pipas
 
 ![Mock](https://github.com/mikelothar/github-gallery/blob/gh-pages/images/screenshot%20of%20github%20gallery.png?raw=true)
 
