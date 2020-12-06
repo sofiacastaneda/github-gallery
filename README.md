@@ -14,11 +14,11 @@ Pipeta tiene dos modos de operar: *Modo Pintura*, en el cual puedes crear en un 
 Sigue estos cuatro pasos:
 
 * Conecta a Pipeta a tu computadora.
-* Entra a la página web de Pipeta. Elige si quieres crear en Modo Pintura o en Modo Composición. 
+* Entra a la página web de Pipeta. Elige si quieres crear en *Modo Pintura* o en *Modo Partitura*. 
 * Ponte los guantes, sin ellos, ¡Pipeta no podrá entender qué quieres hacer!
 * ¡Comienza a crear! Pipeta se activa al tacto, así que ensaya distintas combinaciones y ritmos colocando tus dedos en el instrumento. 
 
-* ¿Dudas? [Mira este video tutorial](https://github.com/join?source=header-home).
+* ¿Dudas? [Mira este video](https://github.com/join?source=header-home).
 
 ## Publicar tus creaciones
 
