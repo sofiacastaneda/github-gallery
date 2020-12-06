@@ -1,8 +1,8 @@
-# Pipas
+# Pipeta, asistente de experimentos visuales y sonoros. 
 
 ![Mock](https://github.com/sofiacastaneda/pipeta/blob/gh-pages/contents/readme.png?raw=true)
 
-[Demo](https://mikelothar.github.io/github-gallery/) | [Repository](https://github.com/mikelothar/github-gallery)
+[Demo Pintura](https://mikelothar.github.io/github-gallery/) | [Demo Partitura](https://mikelothar.github.io/github-gallery/) |[Galería](https://mikelothar.github.io/github-gallery/) |[Repository](https://github.com/sofiacastaneda/pipeta)
 
 GitHub Gallery is a simple photo gallery, which simply displays all the images it finds in the /images/ folder. It's powered by the Jekyll blog engine, and will work on any such powered pages, for example [GitHub Pages](https://pages.github.com/).
 
