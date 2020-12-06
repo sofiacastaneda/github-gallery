@@ -2,21 +2,22 @@
 
 ![Mock](https://github.com/sofiacastaneda/pipeta/blob/gh-pages/contents/readme.png?raw=true)
 
-[Demo Pintura](https://mikelothar.github.io/github-gallery/) | [Demo Partitura](https://mikelothar.github.io/github-gallery/) |[Galería](https://mikelothar.github.io/github-gallery/) |[Repository](https://github.com/sofiacastaneda/pipeta)
+[Bēhance](https://mikelothar.github.io/github-gallery/) | [Demo Pintura](https://mikelothar.github.io/github-gallery/) | [Demo Partitura](https://mikelothar.github.io/github-gallery/) | [Galería](https://mikelothar.github.io/github-gallery/) | [Repositorio](https://github.com/sofiacastaneda/pipeta)
 
-GitHub Gallery is a simple photo gallery, which simply displays all the images it finds in the /images/ folder. It's powered by the Jekyll blog engine, and will work on any such powered pages, for example [GitHub Pages](https://pages.github.com/).
+Pipeta es una asistente creativa, creada para componer composiciones abstractas utilizando como guía, for example [GitHub Pages](https://pages.github.com/).
 
-Images will display up to a max width of 900 pixels. Images larger than 900 pixels will show their full size if you click it.
+## Instrucciones
+Sigue estos cuatro pasos:
 
-You can link to a specific image as they're link anchored. Just click on the specific image and copy the browser URL.
+* Conecta a Pipeta a tu computadora.
+* Entra a la página web de Pipeta. Elige si quieres crear en Modo Pintura o en Modo Composición. 
+* Ponte los guantes, sin ellos, ¡Pipeta no podrá entender qué quieres hacer!
+* ¡Comienza a crear! Pipeta se activa al tacto, así que ensaya distintas combinaciones y ritmos colocando tus dedos en el instrumento. 
 
-## Setting up on GitHub
-There are two simple steps:
+* ¿Dudas? [Mira este video tutorial](https://github.com/join?source=header-home).
 
-* [Sign up for a GitHub account](https://github.com/join?source=header-home). It's free.
-* [Fork](https://help.github.com/articles/fork-a-repo/) the [GitHub Gallery repository](https://github.com/mikelothar/github-gallery).
-* [Add an image](https://help.github.com/articles/adding-a-file-to-a-repository/) into the /images/ folder. 
+## Publicar tus creaciones
 
-Your GitHub Gallery should shortly after be available at [https://YOUR_USERNAME.github.io/github-gallery/](http://YOUR_USERNAME.github.io/github-gallery/).
+Para añadir tus creaciones a la galería, carga tus imágenes en [esta](https://github.com/sofiacastaneda/pipeta/tree/gh-pages/images) carpeta. Espera unos minutos y podrás ver todas tus composiciones [aquí](https://sofiacastaneda.github.io/pipeta/galeria.html).
 
-You can ofcourse [delete the old images](https://help.github.com/articles/deleting-files/), as well as [renaming your repository](https://help.github.com/articles/renaming-a-repository/) for a prettier url. 
+También puedes publicar tus imágenes en Twitter enviando un mail a ifttt@trigger.com. Nombra tu obra en el asunto del correo, y adjunta tu imagen. Espera unos segundos y verás tus imágenes en [@pipetapipas](https://twitter.com/pipetapipas). Puedes consultarlas también en [esta carpeta]().
