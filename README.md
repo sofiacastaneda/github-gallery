@@ -2,9 +2,13 @@
 
 ![Mock](https://github.com/sofiacastaneda/pipeta/blob/gh-pages/contents/readme.png?raw=true)
 
-[Bēhance](https://mikelothar.github.io/github-gallery/) | [Demo Pintura](https://mikelothar.github.io/github-gallery/) | [Demo Partitura](https://mikelothar.github.io/github-gallery/) | [Galería](https://mikelothar.github.io/github-gallery/) | [Repositorio](https://github.com/sofiacastaneda/pipeta)
+[Bēhance](https://mikelothar.github.io/github-gallery/) | [Demo Pintura](https://sofiacastaneda.github.io/pipeta/pintura.html) | [Demo Partitura](https://sofiacastaneda.github.io/pipeta/partitura.html) | [Galería](https://sofiacastaneda.github.io/pipeta/galeria.html) | [Repositorio](https://github.com/sofiacastaneda/pipeta)
 
-Pipeta es una asistente creativa, creada para componer composiciones abstractas utilizando como guía, for example [GitHub Pages](https://pages.github.com/).
+Pipeta es una asistente creativa. Fue creada para ser un instrumento alternativo que permitiera a sus usuarios realizar composiciones abstractas (gráficas y auditivas), por medio de gestos. 
+
+Interactúa con ella y te sorprenderá. Al activarla, generará gráficas y sonidos con los que puedes jugar. Combina, recombina, borra y crea. Pipeta estará aquí para dar vida a tus intuiciones. 
+
+Pipeta tiene dos modos de operar: *Modo Pintura*, en el cual puedes crear en un canvas sin restricciones de orden, centrándote en la composición visual; y el *Modo Partitura* en el cual Pipeta se enfoca en registrar tus sonidos en orden, es decir, otorgando a cada nota una representación gráfica, de modo que si más adelante quieres recrear tu melodía, puedas hacerlo siguiendo la partitura. 
 
 ## Instrucciones
 Sigue estos cuatro pasos:
@@ -18,6 +22,6 @@ Sigue estos cuatro pasos:
 
 ## Publicar tus creaciones
 
-Para añadir tus creaciones a la galería, carga tus imágenes en [esta](https://github.com/sofiacastaneda/pipeta/tree/gh-pages/images) carpeta. Espera unos minutos y podrás ver todas tus composiciones [aquí](https://sofiacastaneda.github.io/pipeta/galeria.html).
+Para añadir tus creaciones a la galería, carga tus imágenes en [esta carpeta](https://github.com/sofiacastaneda/pipeta/tree/gh-pages/images). Espera unos minutos y podrás ver todas tus composiciones [aquí](https://sofiacastaneda.github.io/pipeta/galeria.html).
 
 También puedes publicar tus imágenes en Twitter enviando un mail a ifttt@trigger.com. Nombra tu obra en el asunto del correo, y adjunta tu imagen. Espera unos segundos y verás tus imágenes en [@pipetapipas](https://twitter.com/pipetapipas). Puedes consultarlas también en [esta carpeta]().
