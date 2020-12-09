@@ -1,0 +1,249 @@
+//////////////////////////////////////////////////
+/*====PIPETA======*/
+/*====Modo Partitura======*/
+//////////////////////////////////////////////////
+
+//////////////////////////////////////////////////
+var serial;          // variable para acceder a serialport library
+let portName = '/dev/tty.usbmodem142401';  
+//////////////////////////////////////////////////
+
+//=* marcadores
+var circleA = 0;
+var circleB = 0;
+var circleC = 0;
+var circleD = 0;
+var circleE = 0;
+var circleF = 0;
+
+//=* posiciones en x marcadores
+var axPos = 0;
+var bxPos = 0;
+var cxPos = 0;
+var dxPos = 0;
+var exPos = 0;
+var fxPos = 0;
+
+//=* posiciones en y marcadores
+var ayPos = 0;
+var byPos = 0;
+var cyPos = 0;
+var dyPos = 0;
+var eyPos = 0;
+var fyPos = 0;
+
+//=* variables para los sonidos
+
+let pipe1;
+let pipe2;
+let pipe3;
+let pipe4;
+let pipe5;
+let pipe6;
+
+////////////////////////////////////////////////// 
+
+/*
+==*Música por Mativve.*==
+Audios recuperados de: https://freesound.org/people/Mativve/sounds/416778/
+Mativve Web: https://freesound.org/people/Mativve/sounds/512808/
+==*==
+*/
+
+//cargar notas//
+function preload () {
+
+  pipe1 = loadSound('notas/p5_1.mp3');
+  pipe2 = loadSound('notas/p5_2.mp3');
+  pipe3 = loadSound('notas/p5_3.mp3');
+  pipe4 = loadSound('notas/p5_4.mp3');
+  pipe5 = loadSound('notas/p5_5.mp3');
+  pipe6 = loadSound('notas/p5_6.mp3');
+
+}
+//////////////////////////////////////////////////
+function setup() {
+  let canvas = createCanvas(800, 500);          //canvas
+  background(235,33,93);
+  serial = new p5.SerialPort();    // make a new instance of the serialport library
+  serial.on('list', printList);    // set a callback function for the serialport list event
+  serial.on('connected', serverConnected); // callback for connecting to the server
+  serial.on('open', portOpen);     // callback for the port opening
+  serial.on('data', serialEvent);  // callback for when new data arrives
+  serial.on('error', serialError); // callback for errors
+  serial.on('close', portClose);   // callback for the port closing
+  serial.list();                   // list the serial ports
+    serial.open(portName);              // open a serial port
+}
+//////////////////////////////////////////////////
+function serverConnected() {
+  console.log('connected to server.');
+}
+ 
+function portOpen() {
+  console.log('the serial port opened.')
+}
+ 
+function serialError(err) {
+  console.log('Something went wrong with the serial port. ' + err);
+}
+ 
+function portClose() {
+  console.log('The serial port closed.');
+}
+
+// lista de puertos disponibles:
+function printList(portList) {
+  // portList es un array con los nombres de los puertos seriales
+  for (var i = 0; i < portList.length; i++) {
+    // mostrar la lista de puertos en la consola:
+    console.log(i + portList[i]);
+  }
+}
+//////////////////////////////////////////////////
+
+function serialEvent() {
+  // leer string hasta el salto de línea
+  var inString = serial.readStringUntil('\r\n');
+ 
+  if (inString.length > 0 ) {
+    var sensors = split(inString, ','); //dividir string
+    if (sensors.length > 5) {            
+      circleA = sensors[0];     
+      circleB = sensors[1];      
+      circleC = sensors[2];      
+      circleD = sensors[3];      
+      circleE = sensors[4];     
+      circleF = sensors[5]; 
+    }
+  }
+}
+
+function draw() {
+  
+  //==0 porque es pullup.
+  
+  //Circulo naranja, asterisco verde
+  if(circleA==0){
+   fill(253,65,1);
+   noStroke();
+   circle(axPos,ayPos,40);
+   fill(34,255,219);
+   textSize(62);
+   noStroke();
+   text('*',axPos-12,ayPos+35);
+   axPos=axPos+50;
+    
+    //reproducir nota
+      pipe1.play();
+   }
+  
+  //Círculo azul, punto amarillo
+  if(circleB==0){
+   noStroke();
+   fill(86,211,242)   
+   circle(axPos,byPos,70);
+  strokeWeight(8);
+   stroke(248,135,182); 
+   //fill(253,236,158);
+   noFill();
+   circle(axPos,byPos,40);
+   axPos=axPos+80;
+    
+    //reproducir nota
+      pipe2.play();
+   }
+  
+  //Circulo azul full, puente verde
+  if(circleC==0){
+   noStroke();
+   fill(35,108,233);
+   circle(axPos,cyPos,50);
+   textSize(62);
+   noStroke();
+   fill(40,182,88);
+   text('̑',axPos-12,ayPos+35);
+   axPos=axPos+90;
+    
+    //reproducir nota
+      pipe3.play();
+   }
+  
+  //circulitos amarillos
+   if(circleD==0){
+   fill(249,192,23);
+   circle(axPos,dyPos,20);
+   noStroke();
+   fill(240,202,220);
+   textSize(32);
+   noStroke();
+   text('ɮ',axPos-7,dyPos+35);
+   axPos=axPos+20;
+     
+     //reproducir nota
+      pipe4.play();
+   }
+  
+  //puntitos verdes
+  if(circleE==0){
+   noStroke();
+   fill(40,182,88);
+   circle(axPos,eyPos,10);
+   circle(axPos,eyPos+20,10);
+   axPos=axPos+20;
+    
+    //reproducir nota
+      pipe5.play();
+   }
+  
+  //rosado
+  if(circleF==0){
+   noStroke();
+   fill(220,118,189);
+   circle(axPos,fyPos,60);
+   fill(249,192,23);
+   textSize(62);
+   text('҉',axPos-12,ayPos+35);
+   axPos=axPos+70;
+    
+    //reproducir nota
+      pipe6.play();
+   }
+  
+  //Si se desborda en x, volver al inicio de la pantalla y bajar.
+  if (axPos >= width || bxPos >= width || cxPos >= width || dxPos >= width || exPos >= width || fxPos >= width) {
+    axPos = 0;
+        ayPos = ayPos + 50;
+
+    bxPos = 0;
+        byPos = byPos + 50;
+
+    cxPos = 0;
+        cyPos = cyPos + 50;
+
+    dxPos = 0;
+        dyPos = dyPos + 50;
+
+    exPos = 0;
+        eyPos = eyPos + 50;
+
+    fxPos = 0;
+        fyPos = fyPos + 50;
+  }
+  
+    //Si se desborda en y, volver al inicio de la pantalla y desplazarse ligeramente en x. 
+  if (ayPos >= height || byPos >= height || cyPos >= height || dyPos >= height || eyPos >= height || fyPos >= height){
+    ayPos = 0;
+    byPos = 0;
+    cyPos = 0;
+    dyPos = 0;
+    eyPos = 0;
+    fyPos = 0;
+  }
+}
+
+function mousePressed(setup) {
+saveCanvas(canvas, 'Mi_Canvas_', 'jpg');
+  //Para reset del canvas después de guardar:
+  background(235,33,93);
+}
