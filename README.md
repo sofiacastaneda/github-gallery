@@ -18,7 +18,7 @@ Sigue estos cuatro pasos:
 * Ponte los guantes, sin ellos, ¡Pipeta no podrá entender qué quieres hacer!
 * ¡Comienza a crear! Pipeta se activa al tacto, así que ensaya distintas combinaciones y ritmos colocando tus dedos en el instrumento. 
 
-* ¿Dudas? [Mira este video](https://github.com/join?source=header-home).
+* ¿Dudas? [Mira este video](https://youtu.be/SyCooKJdv_s).
 
 ## Publicar tus creaciones
 
