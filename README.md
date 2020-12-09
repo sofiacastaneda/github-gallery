@@ -1,8 +1,8 @@
 # Pipeta, asistente de experimentos visuales y sonoros. 
 
-![Mock](https://github.com/sofiacastaneda/pipeta/blob/gh-pages/contents/readme.png?raw=true)
+![Mock](https://github.com/sofiacastaneda/pipeta/blob/gh-pages/contents/diagramass-04.png?raw=true)
 
-[Bēhance](https://mikelothar.github.io/github-gallery/) | [Demo Pintura](https://sofiacastaneda.github.io/pipeta/pintura.html) | [Demo Partitura](https://sofiacastaneda.github.io/pipeta/partitura.html) | [Galería](https://sofiacastaneda.github.io/pipeta/galeria.html) | [Repositorio](https://github.com/sofiacastaneda/pipeta)
+[Bēhance](https://www.behance.net/gallery/109303133/Pipeta-Asistente-de-experimentos-visuales-y-sonoros) | [Demo Pintura](https://sofiacastaneda.github.io/pipeta/pintura.html) | [Demo Partitura](https://sofiacastaneda.github.io/pipeta/partitura.html) | [Galería](https://sofiacastaneda.github.io/pipeta/galeria.html) | [Repositorio](https://github.com/sofiacastaneda/pipeta)
 
 Pipeta es una asistente creativa. Fue creada para ser un instrumento alternativo que permitiera a sus usuarios realizar composiciones abstractas (gráficas y auditivas), por medio de gestos. 
 
