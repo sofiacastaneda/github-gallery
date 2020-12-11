@@ -30,3 +30,5 @@ También puedes publicar tus imágenes en Twitter enviando un mail a trigger@app
 * Aplicación [p5.serial control](https://github.com/p5-serial/p5.serialcontrol)
 * Librería [p5.serialport](https://github.com/p5-serial/p5.serialport)
 * [Arduino IDE](https://www.arduino.cc/en/software) 
+
+--> Para probar en casa: sigue [este diagrama](https://www.tinkercad.com/things/aVEQP4N5pFo) para armar tu setup, carga el código del link a tu arduino y sigue las instrucciones mencionadas antes. 
